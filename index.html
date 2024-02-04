@@ -1,40 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI Image Generator Tool</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-      <div class="container">
-        <div class="hero">
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/7e22486cc7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="hero">
         <div class="header">
-            <h1>AI Image Generator Tool Javascript</h1>
-            <p>Generates images using API javascript</p>
+          <h1>AI Image Generator Tool Javascript</h1>
+          <p>Generates images using API javascript</p>
         </div>
         <form action="#" class="form">
-            <input type="text" placeholder="Add description of images">
-            <select name="selection" id="selection">
-                <option value="Image-1">Image 1</option>
-                <option value="Image-2">Image 2</option>
-                <option value="Image-3">Image 3</option>
-                <option value="Image-4">Image 4</option>
-            </select>
-            <button type="submit" class="btn">Generate</button>
+          <input type="text" placeholder="Add description of images" />
+          <select name="selection" id="selection">
+            <option value="Image-1">Image 1</option>
+            <option value="Image-2">Image 2</option>
+            <option value="Image-3">Image 3</option>
+            <option value="Image-4">Image 4</option>
+          </select>
+          <button type="submit" class="btn">Generate</button>
         </form>
 
         <figure class="img-section">
-            <img src="img.avif" alt="img1">
-            <a href="#" class="download-btn"></a>
-            <img src="img.avif" alt="img2">
-            <a href="#" class="download-btn"></a>
-            <img src="img.avif" alt="img3">
-            <a href="#" class="download-btn"></a>
-            <img src="img.avif" alt="img4">
-            <a href="#" class="download-btn"></a>
+          <div>
+            <img src="img.avif" alt="img1" />
+            <a href="#" class="download-btn"
+              ><i class="fa-solid fa-download"></i
+            ></a>
+          </div>
+          <div>
+            <img src="img.avif" alt="img2" />
+            <a href="#" class="download-btn"
+              ><i class="fa-solid fa-download"></i
+            ></a>
+          </div>
+          <div>
+            <img src="img.avif" alt="img3" />
+            <a href="#" class="download-btn"
+              ><i class="fa-solid fa-download"></i
+            ></a>
+          </div>
+          <div>
+            <img src="img.avif" alt="img4" />
+            <a href="#" class="download-btn"
+              ><i class="fa-solid fa-download"></i
+            ></a>
+          </div>
         </figure>
-    </div>
       </div>
-</body>
+    </div>
+  </body>
 </html>
