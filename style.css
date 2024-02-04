@@ -51,12 +51,12 @@ outline:none;
 height:100%;
 padding:5px;
 margin-inline: 8px;
-background-color: rgb(74, 40, 66);
+
 font-size: 20px;
 cursor: pointer;
 font-weight: 500;
-color:#fff;
-border-radius: 40px;
+color:#000;
+
 }
 .form .btn {
 height:100%;
@@ -76,9 +76,18 @@ color:#fff;
     gap:10px;
     justify-content: center;
     flex-wrap:wrap;
+    
 }
 .img-section div{
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:30px;
+    background: #f2f2f2;
+}
+.img-section .loading img{
+   padding:80px;
 }
 .img-section img{
     width:200px;
@@ -96,20 +105,37 @@ background-color: #fff;
 border-radius:50%;
 display:none;
 }
-.img-section a:hover{
-    background-color:purple;
-    color:#fff;
-}
-.img-section img:hover{
+.img-section div:not(.loading):hover .download-btn{
+    display:block;
     cursor:pointer;
 }
-@media screen and (max-width:600px){
-    .container{
-        background-attachment: fixed;
-    }
-    .hero{
-        position:relative;
-    }
+
+@media screen and (max-width:760px){
+   .hero h1{
+    font-size:1.8rem;
+   }
+   .hero p{
+    font-size:1rem;
+   }
+   .form{
+    margin-top:20px;
+    height:52px;
+    display:block;
+   }
+   .form #selection, .btn {
+    margin:60px;
+   }
+   .form #selection {
+    margin-inline: 100px;
+   }
+   .form input{
+    font-size:24px;
+   }
+   .img-section{
+    margin-top:40px;
+   }
+   
+
 .img-section{
     display:grid;
 }
