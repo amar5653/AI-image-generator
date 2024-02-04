@@ -67,3 +67,14 @@ font-size:25px;
 padding:10px;
 color:#fff;
 }
+.img-section {
+    display: flex;
+    height:200px;
+    margin:40px;
+    gap:10px;
+    justify-content: space-evenly;
+    
+}
+@media screen {
+    
+}
