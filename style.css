@@ -67,6 +67,7 @@ background-color: rgb(10, 89, 10);
 font-size:25px;
 padding:10px;
 color:#fff;
+cursor: pointer;
 }
 .img-section {
     display: flex;
